@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://st.depositphotos.com/1172243/2754/i/450/depositphotos_27548893-stock-photo-organic-farm-land-with-green.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-btn {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.form-btn button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #8bc34a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-btn button.active {
+    background-color: #558b2f;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form.hidden {
+    display: none;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form button {
+    padding: 10px;
+    border: none;
+    background-color: #8bc34a;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form button:hover {
+    background-color: #558b2f;
+}
